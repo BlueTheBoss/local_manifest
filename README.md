@@ -1,3 +1,1 @@
-# local_manifest
-# local_manifest
-# local_manifest
+Local Manifest for Tulip
