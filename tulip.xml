@@ -8,14 +8,14 @@
   <project name="BlueTheBoss/android_vendor_xiaomi_tulip" path="vendor/xiaomi/tulip" remote="github" revision="16.2" />
 
   <!-- SDM660 COMMON DEVICE & VENDOR -->
-  <project name="pix106/android_device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="github" revision="lineage-23.2" />
-  <project name="pix106/android_vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="github" revision="lineage-23.2" />
+  <project name="pix106/android_device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="github" revision="16.2" />
+  <project name="pix106/android_vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="github" revision="16.2" />
 
   <!-- KERNEL -->
-  <project name="BlueTheBoss/android_kernel_xiaomi_sdm660_southwest-ng" path="kernel/xiaomi/sdm660" remote="github" revision="16.2" />
+  <project name="BlueTheBoss/android_kernel_xiaomi_sdm660_southwest-ng" path="kernel/xiaomi/sdm660" remote="github" revision="main-clo-dynamic" />
 
   <!-- HARDWARE EXTRA HALs -->
-  <project name="pix106/android_hardware_qcom-caf_display" path="hardware/qcom-caf/sdm660/display" remote="github" revision="sdm660-4.19" />
-  <project name="pix106/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="github" revision="sdm660-4.19" />
+  <project name="pix106/android_hardware_qcom-caf_display" path="hardware/qcom-caf/sdm660/display" remote="github" revision="lineage-23.2-caf-sdm660" />
+  <project name="pix106/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="github" revision="lineage-23.2" />
 
 </manifest>
