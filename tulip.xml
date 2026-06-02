@@ -8,7 +8,7 @@
   <project path="vendor/xiaomi/tulip" name="BlueTheBoss/vendor_xiaomi_tulip" remote="github-blue" revision="15" />
   <project path="vendor/xiaomi/sdm660-common" name="BlueTheBoss/vendor_xiaomi_sdm660-common" remote="github-blue" revision="15" />
 
-  <project path="kernel/xiaomi/tulip" name="BlueTheBoss/kernel_xiaomi_tulip" remote="github-blue" revision="15" />
+  <project path="kernel/xiaomi/tulip" name="BlueTheBoss/android_kernel_xiaomi_sdm660_southwest-ng" remote="github-blue" revision="main-clo-dynamic" />
 
 
 </manifest>
