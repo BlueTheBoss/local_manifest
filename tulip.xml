@@ -8,7 +8,7 @@
   <project path="vendor/xiaomi/twolip" name="BlueTheBoss/android_vendor_xiaomi_twolip" remote="github-blue" revision="lineage-21" />
   <project path="vendor/xiaomi/bouquet-common" name="BlueTheBoss/android_device_xiaomi_twolip" remote="github-blue" revision="lineage-22.1" />
 
-  <project path="kernel/xiaomi/twolip" name="BlueTheBoss/android_kernel_xiaomi_sdm660_southwest-ng" remote="github-blue" revision="main-clo-dynamic" />
+  <project path="kernel/xiaomi/sdm660" name="BlueTheBoss/android_kernel_xiaomi_sdm660_southwest-ng" remote="github-blue" revision="main-clo-dynamic" />
 
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github-blue" revision="lineage-22.2" />
 
