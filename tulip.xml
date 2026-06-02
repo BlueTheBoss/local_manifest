@@ -1,36 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="github-blue" fetch="https://github.com" />
 
-  <remote name="ghostmaster"
-          fetch="https://github.com/GhostMaster69-dev"
-          revision="15" />
+  <project path="device/xiaomi/tulip" name="BlueTheBoss/device_xiaomi_tulip" remote="github-blue" revision="15" />
+  <project path="device/xiaomi/sdm660-common" name="BlueTheBoss/device_xiaomi_sdm660-common" remote="github-blue" revision="16" />
 
-  <remote name="bluetheboss"
-          fetch="https://github.com/BlueTheBoss" />
+  <project path="vendor/xiaomi/tulip" name="BlueTheBoss/vendor_xiaomi_tulip" remote="github-blue" revision="15" />
+  <project path="vendor/xiaomi/sdm660-common" name="BlueTheBoss/vendor_xiaomi_sdm660-common" remote="github-blue" revision="15" />
 
-  <project path="device/xiaomi/tulip" 
-           name="device_xiaomi_tulip" 
-           remote="ghostmaster" 
-           revision="15" />
+  <project path="kernel/xiaomi/tulip" name="BlueTheBoss/kernel_xiaomi_tulip" remote="github-blue" revision="15" />
 
-  <project path="vendor/xiaomi/tulip" 
-           name="vendor_xiaomi_tulip" 
-           remote="ghostmaster" 
-           revision="15" />
-           
-  <project path="device/xiaomi/sdm660-common" 
-           name="device_xiaomi_sdm660-common" 
-           remote="ghostmaster" 
-           revision="15" />
-           
-  <project path="vendor/xiaomi/sdm660-common" 
-           name="vendor_xiaomi_sdm660-common" 
-           remote="ghostmaster" 
-           revision="15" />
-
-  <project path="kernel/xiaomi/tulip" 
-           name="android_kernel_xiaomi_sdm660_southwest-ng" 
-           remote="bluetheboss" 
-           revision="main-clo-dynamic" />
 
 </manifest>
